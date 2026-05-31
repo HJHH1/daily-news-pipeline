@@ -1,0 +1,22 @@
+paths:
+  project_dir: "/root/daily-news-pipeline/scraper"
+  scraper_script: "news_scraperV4.py"
+  exports_dir: "news_exports"
+  news_content_dir: "/root/news_content"
+  baidu_remote_news_collection: "/新闻合集"
+  baidu_remote_news_organized: "/新闻整理合集"
+
+deepseek:
+  api_key: ""
+  base_url: "https://api.deepseek.com/v1"
+  model: "deepseek-chat"
+  temperature: 0.3
+
+prompts:
+  analysis: |
+    PLACEHOLDER_ANALYSIS
+  refine: |
+    PLACEHOLDER_REFINE
+
+baidu:
+  check_login: true
